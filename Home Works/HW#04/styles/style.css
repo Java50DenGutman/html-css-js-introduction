@@ -1,0 +1,42 @@
+.chess{
+  display: flex;
+  flex-direction: column;
+ border: solid 2px black;
+}
+
+.chess-row{
+  display: flex;
+  flex-direction: row;
+}
+.square-white{
+  width: 5vw;
+  height: 5vw;
+ }
+.square-black{
+  width: 5vw;
+  height: 5vw;
+  background-color: black;
+  border: 2px black
+}
+
+.square-digits{
+  width: 5vw;
+  height: 5vw;
+  border: 2px black
+}
+
+.square-letters{
+  width: 5vw;
+  height: 5vw;
+  border: 2px black
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+html{
+  height: 100%;
+}
